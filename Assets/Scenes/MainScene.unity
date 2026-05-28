@@ -1715,7 +1715,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   projectilePrefab: {fileID: 7002499376889927665, guid: aa920351e3ba26d4da5ac1dc61e5917a, type: 3}
-  initialPoolSize: 50
+  initialPoolSize: 20
 --- !u!1 &1763136319
 GameObject:
   m_ObjectHideFlags: 0

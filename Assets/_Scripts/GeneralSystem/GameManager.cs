@@ -15,6 +15,12 @@ public class GameManager : MonoBehaviour
         GameEventSystem.OnPlayerDied -= HandlePlayerDied;
     }
 
+    void Update()
+    {
+        if(Input.GetKeyDown(KeyCode.Escape))
+            Application.Quit();
+    }
+
     void HandlePlayerDied()
     {
         if (isGameOver)
